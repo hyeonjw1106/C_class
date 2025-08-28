@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char input[1000];    
     char output[1000];
     int i = 0, j = 0;      

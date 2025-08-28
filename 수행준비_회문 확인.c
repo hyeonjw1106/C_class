@@ -1,23 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int palin(char a[100]);
 
 int main(void) {
     char n[100];
-    scanf("%s", n[100]);
+    scanf("%s", n);
     int result = palin(n);
-    printf("%d", result);
+    printf("%d\n", result);
 
     return 0;
 }
 
 int palin(char a[100]) {
-    int f = 0;
-    int b = -1;
-    for(int i=f; i<-b; i++) {
-        if (a[f] != a[b]) {
-            return -1;
+    int len = 0;
+    while (a[len] != '\0') {
+        len++;
+    }
+
+    for (int i = 0; i < len / 2; i++) {
+        if (a[i] != a[len - 1 - i]) {
+            return -1; 
         }
     }
-    return 1;
+
+    return 1; 
 }

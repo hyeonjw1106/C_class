@@ -58,10 +58,6 @@ int main(void) {
     *pa = *pb;
     *pb = temp;
     printf("a : %d b: %d\n", a, b);
-
-
-
-
     
     return 0;
 }
