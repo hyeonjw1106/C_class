@@ -3,7 +3,6 @@
 
 // 동적 할당해서 입력한 값 합
 int main(void) {
-    // 1번 문제
     int n;
     printf("정수 개수 입력 : ");
     scanf("%d", &n);
