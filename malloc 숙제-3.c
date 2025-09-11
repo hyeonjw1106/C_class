@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// 짝수만 저장한 배열 동적 할당
 int main(void) {
     int n;
     printf("정수 개수 입력 (최대 15): ");
@@ -42,3 +43,4 @@ int main(void) {
     free(evenArr);
     return 0;
 }
+

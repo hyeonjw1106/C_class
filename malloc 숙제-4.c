@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// 문자열 입력받고 동적 할당 후 가장 긴 문자열 찾아 출력
 #define MAX_STRINGS 10
 #define MAX_LENGTH 1000
 
@@ -21,6 +22,7 @@ int main() {
             break;
         }
         
+
         buffer[strcspn(buffer, "\n")] = '\0';
 
         if (strlen(buffer) == 0) {
