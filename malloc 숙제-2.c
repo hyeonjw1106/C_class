@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// 중복 없이 동적 할당
 int contains(int *arr, int size, int value) {
     for (int i = 0; i < size; i++) {
-        if (arr[i] == value) return 1; 
+        if (arr[i] == value) return 1;
     }
     return 0;
 }
@@ -53,3 +54,4 @@ int main(void) {
 
     return 0;
 }
+

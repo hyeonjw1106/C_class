@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h> 
 
+// 동적 할당해서 입력한 값 합
 int main(void) {
     // 1번 문제
     int n;
