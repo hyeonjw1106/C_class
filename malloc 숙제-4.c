@@ -8,7 +8,7 @@
 
 int main() {
     char *strings[MAX_STRINGS];
-    char buffer[MAX_LENGTH];  
+    char buffer[MAX_LENGTH];
     int count = 0; 
     int longest_index = 0;      
     int max_length = 0;      
@@ -59,12 +59,6 @@ int main() {
         printf("\n가장 긴 문자열: \"%s\"\n", strings[longest_index]);
         printf("길이: %d문자\n", max_length);
         
-        printf("\n같은 최대 길이를 가진 문자열들:\n");
-        for (int i = 0; i < count; i++) {
-            if (strlen(strings[i]) == max_length) {
-                printf("- \"%s\"\n", strings[i]);
-            }
-        }
     } else {
         printf("입력된 문자열이 없습니다.\n");
     }
