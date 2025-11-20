@@ -21,7 +21,6 @@ int main(void) {
         students[i].total = students[i].korean + students[i].math + students[i].english;
     }
 
-
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             int swap_flag = 0;
